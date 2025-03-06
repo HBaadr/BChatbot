@@ -11,34 +11,10 @@ import SwiftUI
 public class ChatBotPackage {
     
     public static func chatBotView(
-        userInfos: UserInfos,
-        onHomeBackPressed: (() -> Void)? = nil
-    ) -> some View {
-        ChatBotView(
-            userInfos: userInfos,
-            onHomeBackPressed: onHomeBackPressed
-        )
+        _ a: Int,
+        _ b: Int
+    ) -> String {
+        return a + b
     }
     
-    public static func satisfactionBottomSheet(
-        userInfos: UserInfos,
-        onDismiss: @escaping () -> Void
-    ) -> some View {
-        SatisfactionBottomSheet(
-            userInfos: userInfos,
-            onDismiss: onDismiss
-        )
-    }
-    
-    public static func setFirebaseCallback(
-        _ callback: @escaping (FirebaseEvent, [String: Any]?) -> Void
-    ) {
-        FirebaseModule.setFirebaseCallback(callback)
-    }
-    
-    public static func setRedirectCodeCallback(
-        _ callback: @escaping (String) -> Void
-    ) {
-        RedirectCodeModule.setRedirectCodeCallback(callback)
-    }
 }
