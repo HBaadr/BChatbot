@@ -14,7 +14,10 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BChatbot",
-            path: "Build/BChatbot.xcframework"
+            path: "Build/BChatbot.xcframework",
+            resources: [
+                .process("Resources")
+            ]
         ),
     ]
 )

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		5485E5C52D79DDDA00954F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5485E5C62D79DDDA00954F46 /* BasierCircle-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-Bold.otf"; sourceTree = "<group>"; };
+		5485E5C72D79DDDA00954F46 /* BasierCircle-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-Medium.otf"; sourceTree = "<group>"; };
+		5485E5C82D79DDDA00954F46 /* BasierCircle-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-Regular.otf"; sourceTree = "<group>"; };
+		5485E5C92D79DDDA00954F46 /* BasierCircle-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-SemiBold.otf"; sourceTree = "<group>"; };
+		5485E5CA2D79DDDA00954F46 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		54D036EF2D79CBFE00525C9C /* BChatbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BChatbot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D036FA2D79CC3B00525C9C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		54D036FB2D79CC6F00525C9C /* build_xcframework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_xcframework.sh; sourceTree = "<group>"; };
@@ -85,9 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5485E5CB2D79DDDA00954F46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5485E5C52D79DDDA00954F46 /* Assets.xcassets */,
+				5485E5C62D79DDDA00954F46 /* BasierCircle-Bold.otf */,
+				5485E5C72D79DDDA00954F46 /* BasierCircle-Medium.otf */,
+				5485E5C82D79DDDA00954F46 /* BasierCircle-Regular.otf */,
+				5485E5C92D79DDDA00954F46 /* BasierCircle-SemiBold.otf */,
+				5485E5CA2D79DDDA00954F46 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		54D036E52D79CBFE00525C9C = {
 			isa = PBXGroup;
 			children = (
+				5485E5CB2D79DDDA00954F46 /* Resources */,
 				54D037532D79CD7200525C9C /* Build */,
 				54D0374F2D79CD0E00525C9C /* Sources */,
 				54D036FC2D79CCC400525C9C /* project.yml */,
