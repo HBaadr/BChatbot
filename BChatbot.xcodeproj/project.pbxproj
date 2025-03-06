@@ -13,6 +13,7 @@
 		5485E5C82D79DDDA00954F46 /* BasierCircle-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-Regular.otf"; sourceTree = "<group>"; };
 		5485E5C92D79DDDA00954F46 /* BasierCircle-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-SemiBold.otf"; sourceTree = "<group>"; };
 		5485E5CA2D79DDDA00954F46 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		5485E5F52D79E0EF00954F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		54D036EF2D79CBFE00525C9C /* BChatbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BChatbot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D036FA2D79CC3B00525C9C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		54D036FB2D79CC6F00525C9C /* build_xcframework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_xcframework.sh; sourceTree = "<group>"; };
@@ -374,6 +375,7 @@
 		54D0374F2D79CD0E00525C9C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				5485E5F52D79E0EF00954F46 /* Info.plist */,
 				54D037052D79CD0E00525C9C /* data */,
 				54D037232D79CD0E00525C9C /* domain */,
 				54D0374D2D79CD0E00525C9C /* presentation */,
